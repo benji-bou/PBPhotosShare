@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"app"
-	"app/database"
-	"app/middlewares"
-	"app/user"
+	"goappuser"
+	"goappuser/database"
+	"goappuser/middlewares"
+	"goappuser/user"
 	"log"
 	"net/http"
 

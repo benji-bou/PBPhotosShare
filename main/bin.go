@@ -1,12 +1,12 @@
 package main // Main function
 
 import (
-	"PBPhotosShare/controllers"
-	"app"
-	"app/database"
-	"app/middlewares"
-	"app/security"
-	"app/user"
+	"PhotosShare/controllers"
+	"goappuser"
+	"goappuser/database"
+	"goappuser/middlewares"
+	"goappuser/security"
+	"goappuser/user"
 	"log"
 	"net/http"
 

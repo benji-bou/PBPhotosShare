@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	"PBPhotosShare/models"
-	"app"
-	"app/database"
-	"app/middlewares"
+	"PhotosShare/models"
 	"errors"
+	"goappuser"
+	"goappuser/database"
+	"goappuser/middlewares"
 	"log"
 	"mime/multipart"
 	"net/http"
